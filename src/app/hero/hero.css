@@ -1,0 +1,60 @@
+.main {
+  /* border: 2px solid blue; */
+  margin: 3px;
+
+}
+
+.hero {
+  height: 70vw;
+  background: url('/image/graduate.jpeg') center/cover;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  padding: 50px;
+  color: white;
+
+}
+
+.hero-content {
+  /* position: relative; */
+  /* max-width: 100px; */
+  /* border: 2px solid red; */
+  margin-left: 60px;
+}
+
+.hero h1 {
+  font-size: 35px;
+  /* letter-spacing: 1px; */
+}
+
+.btn3 {
+  padding: 18px;
+  margin-right: 20px;
+  background-color: red;
+  border: none;
+}
+
+a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+.btn5 {
+  padding: 18px;
+  margin-right: 20px;
+  background-color: white;
+  border: none;
+}
+
+.btn-5 {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+p{
+  margin-bottom: 50px;
+  font-size: 18px;
+}
