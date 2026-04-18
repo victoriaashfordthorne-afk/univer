@@ -1,123 +1,98 @@
-.grid-container {
+.flex-container{
   /* border: 2px solid red; */
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  column-gap: 60px;
-  /* margin-bottom: 30px; */
-  /* margin-right: 100px; */
-  /* width: 100%; */
+ display: flex;
+ height: 100%;
+ color: white;
 
 
 }
-
-.person {
-  /* border: 2px solid navy; */
-  background-color: rgb(3, 3, 37);
-  color: white;
-  padding: 30px;
-  width: 400px;
-  /* position: absolute;
-  top: 40px; */
-  /* text-align: center; */
-
+.div-1{
+  /* border: 2px solid blue; */
+  background-color: navy;
+  width: 25%;
 
 }
-
-.school-book {
+.div-2{
   /* border: 2px solid lightblue; */
-  background-color: rgb(3, 147, 196);
-  color: white;
-  padding: 30px;
-  width: 400px;
+  background-color: rgb(60, 60, 223);
+  width: 35%;
   position: relative;
-  bottom: 10px;
-  /* left: 30px; */
-}
-
-.medal-honer {
-  border: 2px solid red;
-  background-color: red;
-  color: white;
-  padding: 10px;
-  position: relative;
-  /* right: 40px; */
-  bottom: 100px;
-  /* margin-left: 40px; */
 
 }
 
-.div-1 {
+
+.div-3{
   /* border: 2px solid red; */
   background-color: red;
-  margin-right: 40px;
-  height: 100%;
-  width: 100vw;
-
-}
-
-.div-1 p {
-  /* border: 2px solid blue; */
+  width: 45%;
   position: relative;
-  top: 130px;
+
+
+
 
 }
+.div-1 p{
+  /* border: 2px solid yellow; */
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.div-2 p{
+   /* border: 2px solid yellow; */
+  margin-top: 80px;
+ margin-left: 30px;
+ font-size: 20px;
+}
+.div-3 p{
+  /* border: 2px solid yellow; */
+   margin-left: 30px;
+   margin-top: 40px;
+   font-size: 20px;
+}
+.div-1 h3{
+  /* border: 2px solid red; */
+   margin-left: 80px;
+  margin-top: 30px;
+  font-size: 24px;
 
-.div-5 {
-  /* border: 2px solid blue; */
+
+}
+.div-2 h3{
+    /* border: 2px solid red; */
+   margin-left: 65px;
+    font-size: 24px;
+    margin-top: 30px;
+
+}
+.div-1 img{
+  /* border: 2px solid brown; */
+   position: relative;
+   top: 60px;
+   left: 45px;
+}
+.div-2 img{
+   /* border: 2px solid brown; */
+   position: relative;
+   top: 60px;
+   left: 30px;
+}
+.div-3 h3{
+  /* border: 2px solid navy; */
+  margin-left: 50px;
+  font-size: 24px;
+}
+.medal{
+  /* border: 2px solid green; */
   position: relative;
   top: 40px;
 }
-
-.div-2 {
-  /* border: 2px solid lightblue; */
-  background-color: rgb(3, 147, 196);
-  height: 100%;
-  width: 100vw;
-
-
-
-}
-/* .div-10{
-  position: relative;
-  left: 30px;
-
-} */
-
-h3 {
-  position: relative;
-  left: 40px;
-  bottom: 45px;
-  left: 45px;
-  /* font-size: 24px; */
-}
-.div-7{
-  /* border: 2px solid green; */
-  position: relative;
-  top: 60px;
-}
-.div-9{
-  /* border: 2px solid yellow; */
-   position: relative;
-  top: 180px;
-  /* left: 400px; */
-}
-.div-9 h3{
-  position: relative;
-  /* left: 50px; */
-  bottom: 65px;
-  font-size: 24px;
-}
-/* .man-1{
-  border: 2px solid blue;
-  border-radius: 100px;
-} */
-.div-2 p{
+img{
   /* border: 2px solid blue; */
-  position: relative;
-  bottom: 40px;
-  left: 20px;
-  /* margin-left: 20px;
-  margin-top: 5px; */
+  border-radius: 300px;
+
+
+
 }
+
